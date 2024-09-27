@@ -28,7 +28,14 @@ You can check how this library was implemented here: https://medium.com/p/9efee6
 
 ## Installation
 
-    implementation 'br.com.simplepass:loading-button-android:1.14.0'
+	repositories {
+		...
+		maven { url 'https://jitpack.io' }
+	}
+
+	dependencies {
+    	implementation 'com.github.jonathrodriguez:loading-button-android:1.14.1'
+	}
 
 ## How to use
 
